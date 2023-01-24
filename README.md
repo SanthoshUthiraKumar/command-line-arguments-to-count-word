@@ -32,20 +32,18 @@ Program to list the contents from CSV file
 Developed by: Santhosh U
 RegisterNumber: 22009224
 '''
-import sys
-count={}
-with open(sys.argv[1],'r') as f:
-    for line in f:
-        for word in line.split():
-            if word not in count:
-                count[word]=1
-            else:
-                count[word]+=1
-print(count)
-f.close()
+mport sys
+fp=open(sys.argv[1],"r")
+d={}
+for i in fp:
+    for w in i.split():
+        if w not in d.keys(): 
+            d[w]=1
+        else:
+            d[w]+=1
+print(d)
 ```
 ### OUTPUT:
-
 
 
 ## RESULT:
