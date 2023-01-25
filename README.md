@@ -11,7 +11,7 @@ Anaconda - Python 3.7
 Import sys libraray using import command.
 
 ### Step 2: 
-Assign a empty list to a variable.
+Assign a empty dictionary to a variable.
  
 ### Step 3: 
 Open the text file using command "with open(sys.argv[index]).
